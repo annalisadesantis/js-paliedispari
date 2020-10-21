@@ -18,6 +18,34 @@ if (somma_vincitrice === "pari" || somma_vincitrice === "dispari"){
     somma_vincitrice = prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari");
 }
 
-
+// Genero un numero casuale tra 1 e 5
 var numero_pc = Math.floor(Math.random() * 5) + 1;
 console.log(numero_pc);
+
+//Creo una funzione per fare la somma tra due numeri
+function sommaNumeri(num1, num2) {
+    var risultato = num1 + num2;
+    return risultato;
+}
+
+var somma_finale = sommaNumeri(numero_utente, numero_pc);
+console.log(somma_finale);
+
+
+function tipo("", ""){
+    if (somma_finale % 2 == 0){
+
+    }else{
+
+    }
+}
+
+// function isEven(numero) {
+//     if(numero % 2 == 0) {
+//         // il numero è pari
+//         return true;
+//     } else {
+//         // il numero è dispari
+//         return false;
+//     }
+// }

@@ -28,15 +28,25 @@ function checkPalindrom(str) {
     }
 }
 
+
 // Soluzione 2 ------------------------------
-/*
-for(var i = 5; i > 0; i--) {
 
-}
-*/
 
-//str.length - 1
-
-//5, 4, 3, 2, 1, 0
-
-// devi leggere la stringa dal suo ultimo carattere al primo
+// for(var i = 0; i < nomi.length; i++) {
+//     var nome_corrente = nomi[i];
+//     console.log(nome_corrente);
+//
+//     var parole = "";
+//
+//     for (var y = nome_corrente.length - 1; y >= 0; y--) {
+//         var nome_corrente_invertito = nome_corrente[y];
+//         parole += nome_corrente_invertito;
+//     }
+//
+//     if(nome_corrente == parole){
+//         console.log("Il nome " + nome_corrente + " è palindromo");
+//     }else{
+//         console.log("Il nome " + nome_corrente + " non è palindromo");
+//     }
+//
+// }

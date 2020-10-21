@@ -10,7 +10,6 @@ console.log("Il numero che hai scelto è " + numero_utente);
 
 
 
-
 // L'utente sceglie se la somma dei numeri sarà un numero "pari" o "dispari"
 var somma_vincitrice = prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari");
 
@@ -25,6 +24,8 @@ console.log("La somma dei due numeri per te sarà: " + somma_vincitrice);
 // Genero un numero casuale tra 1 e 5
 var numero_pc = Math.floor(Math.random() * 5) + 1;
 console.log("Il numero del tuo avversario è " +  numero_pc);
+
+
 
 //Creo una funzione per fare la somma tra due numeri
 function sommaNumeri(num1, num2) {

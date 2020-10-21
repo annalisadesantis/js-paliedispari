@@ -27,3 +27,16 @@ function checkPalindrom(str) {
         return false;
     }
 }
+
+// Soluzione 2 ------------------------------
+/*
+for(var i = 5; i > 0; i--) {
+
+}
+*/
+
+//str.length - 1
+
+//5, 4, 3, 2, 1, 0
+
+// devi leggere la stringa dal suo ultimo carattere al primo

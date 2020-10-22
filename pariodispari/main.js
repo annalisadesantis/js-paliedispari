@@ -11,10 +11,10 @@ console.log("Il numero che hai scelto è " + numero_utente);
 
 
 // L'utente sceglie se la somma dei numeri sarà un numero "pari" o "dispari"
-var somma_vincitrice = prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari");
+var somma_vincitrice = (prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari")).toLowerCase();
 
 while(!(somma_vincitrice === "pari" || somma_vincitrice === "dispari")){
-    somma_vincitrice = prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari");
+    somma_vincitrice = (prompt("Inserisci se la somma dei numeri sarà un numero pari o dispari")).toLowerCase();
 }
 console.log("La somma dei due numeri per te sarà: " + somma_vincitrice);
 

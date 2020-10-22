@@ -50,3 +50,18 @@ function checkPalindrom(str) {
 //     }
 //
 // }
+
+
+// Soluzione 3 con prompt---------------------
+//
+// function checkPalindrom(str){
+//     return (str == str.split('').reverse().join(''));
+// }
+//
+// var nome_utente = prompt("Inserisci una parola");
+// var risultato = checkPalindrom(nome_utente);
+// if (risultato){
+//     console.log("La parola che hai inserito è palindroma");
+// }else{
+//     console.log("La parola che hai inserito non è palindroma");
+// }

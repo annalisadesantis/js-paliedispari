@@ -54,6 +54,8 @@ function checkPalindrom(str) {
 
 
 // // Soluzione 3 con prompt---------------------
+
+
 // // Creo una funzione per verificare che l'elemeto che vogliamo quando lo invertiamo è uguale alla parola iniziale
 // function checkPalindrom(str){
 //     return (str == str.split('').reverse().join(''));
